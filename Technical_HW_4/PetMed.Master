@@ -5,14 +5,47 @@
 <html>
 <head runat="server">
     <title></title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="PetMed" runat="server">
+        <div class="row" id="Title">
+            <div class="col">
+                <h1>PEPS</h1>
+                <h3>Pet Electronic Prescription System</h3>
+            </div>
+        </div>
+        <div class="row" id="TitleBar">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./">Veterinarian<span class="sr-only"></span></a>
+                            </li>
+                            <a> | </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./">Customer Service<span class="sr-only"></span></a>
+                            </li>
+                            <a> | </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./">Dispensing<span class="sr-only"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            <div class="Content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
         </div>
     </form>
 </body>

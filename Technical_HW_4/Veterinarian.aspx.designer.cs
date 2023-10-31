@@ -11,7 +11,7 @@ namespace Technical_HW_4
 {
 
 
-	public partial class _default
+	public partial class WebForm1
 	{
 	}
 }

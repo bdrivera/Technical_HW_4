@@ -1,0 +1,26 @@
+﻿/*
+	# is Id Selector
+	. is Class Selector
+*/
+
+body {
+	background-color: #003A1B;
+	color: #FCC82E;
+}
+
+#Header {
+
+}
+
+#Title {
+
+}
+
+#TitlelBar {
+
+}
+
+.Content {
+	background-color: #014F25;
+	border-radius: 15px;
+}
