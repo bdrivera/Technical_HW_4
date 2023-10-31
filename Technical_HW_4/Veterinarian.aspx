@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="VeterinarianBody" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
     <div class="row">
-        <div class="col justify-content-center">
+        <div class="col ContentTitle">
             <h1>Veterinarians</h1>
         </div>
     </div>

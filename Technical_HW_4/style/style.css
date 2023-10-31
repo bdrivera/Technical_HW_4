@@ -8,19 +8,42 @@ body {
 	color: #FCC82E;
 }
 
-#Header {
-
-}
-
 #Title {
-
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-#TitlelBar {
+#TitleBar {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
 
+#TitleBar a {
+	color: #FCC82E;
+}
+
+#TitleBar a:hover {
+	color: #7e5f02;
+}
+
+
+
+.NavSpacer a:hover {
+	color: #FCC82E
 }
 
 .Content {
 	background-color: #014F25;
 	border-radius: 15px;
+	width: 80%;
+	padding: 1rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.ContentTitle {
+	text-align: center;
 }
