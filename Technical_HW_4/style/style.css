@@ -29,6 +29,11 @@ body {
 	color: #7e5f02;
 }
 
+#PendingPrescriptions {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 .NavSpacer a:hover {
@@ -47,3 +52,55 @@ body {
 .ContentTitle {
 	text-align: center;
 }
+
+.SubContentTitle {
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.ProcessingTitle {
+	margin-top: 3rem;
+}
+
+.InputBox {
+	text-align: start;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.CsPrescriptionsInput {
+	min-height: 300px;
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+}
+
+.CsCommentsInput {
+	border-radius: 15px;
+	width: 90%;
+	height: 90%;
+}
+
+.Button {
+	background-color: #003A1B;
+	color: #FCC82E;
+	border-radius: 15px;
+	margin-top: 1rem;
+	border: none;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+.row {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.col {
+	margin-right: .5rem;
+	margin-left: .5rem;
+}
+

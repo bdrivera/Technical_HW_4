@@ -24,15 +24,15 @@
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="./">Veterinarian<span class="sr-only"></span></a>
+                                <a class="nav-link" href="Veterinarian.aspx">Veterinarian<span class="sr-only"></span></a>
                             </li>
                             <a class="nav-link NavSpacer"> | </a>
                             <li class="nav-item">
-                                <a class="nav-link" href="./">Customer Service<span class="sr-only"></span></a>
+                                <a class="nav-link" href="CustomerService.aspx">Customer Service<span class="sr-only"></span></a>
                             </li>
                             <a class="nav-link NavSpacer"> | </a>
                             <li class="nav-item">
-                                <a class="nav-link" href="./">Dispensing<span class="sr-only"></span></a>
+                                <a class="nav-link" href="Dispensing.aspx">Dispensing<span class="sr-only"></span></a>
                             </li>
                         </ul>
                     </div>
