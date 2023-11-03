@@ -1,0 +1,106 @@
+﻿/*
+	# is Id Selector
+	. is Class Selector
+*/
+
+body {
+	background-color: #003A1B;
+	color: #FCC82E;
+}
+
+#Title {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#TitleBar {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+#TitleBar a {
+	color: #FCC82E;
+}
+
+#TitleBar a:hover {
+	color: #7e5f02;
+}
+
+#PendingPrescriptions {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.NavSpacer a:hover {
+	color: #FCC82E
+}
+
+.Content {
+	background-color: #014F25;
+	border-radius: 15px;
+	width: 80%;
+	padding: 1rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.ContentTitle {
+	text-align: center;
+}
+
+.SubContentTitle {
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.ProcessingTitle {
+	margin-top: 3rem;
+}
+
+.InputBox {
+	text-align: start;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.CsPrescriptionsInput {
+	min-height: 300px;
+	width: 90%;
+	height: 90%;
+	border-radius: 15px;
+}
+
+.CsCommentsInput {
+	border-radius: 15px;
+	width: 90%;
+	height: 90%;
+}
+
+.Button {
+	background-color: #003A1B;
+	color: #FCC82E;
+	border-radius: 15px;
+	margin-top: 1rem;
+	border: none;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+.row {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.col {
+	margin-right: .5rem;
+	margin-left: .5rem;
+}
+
