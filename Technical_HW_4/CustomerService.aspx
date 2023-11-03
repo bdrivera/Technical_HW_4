@@ -10,13 +10,13 @@
     <div class="row">
         <div class="col" id="CsPendingPrescriptions">
             <asp:Label ID="lblPendingTitle" runat="server" Text="Pending Prescriptions" CssClass="SubContentTitle"></asp:Label><br />
-            <asp:TextBox ID="txtPendingPrescriptions" runat="server" TextMode="MultiLine" CssClass="CsPrescriptionsInput"></asp:TextBox>
+            <asp:TextBox ID="txtPendingPrescriptions" runat="server" TextMode="MultiLine" CssClass="CsPrescriptionsInput" data-toggle="tooltip" data-placement="top" title="Pending Prescriptions"></asp:TextBox>
         </div>
         <div class="col">
             <div class="row">
                 <div class="col CsComments">
                     <asp:Label ID="lblCommentsTitle" runat="server" Text="Comments" CssClass="SubContentTitle"></asp:Label><br />
-                    <asp:TextBox ID="txtComments" runat="server" TextMode="MultiLine" CssClass="CsCommentsInput"></asp:TextBox>
+                    <asp:TextBox ID="txtComments" runat="server" TextMode="MultiLine" CssClass="CsCommentsInput" data-toggle="tooltip" data-placement="top" title="Comments"></asp:TextBox>
                 </div>
             </div>
             <div class="row">
