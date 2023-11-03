@@ -87,12 +87,12 @@ namespace Technical_HW_4
 		protected global::System.Web.UI.WebControls.Button btnDenyDispensing;
 
 		/// <summary>
-		/// btnOOS control.
+		/// btnOutOfStock control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button btnOOS;
+		protected global::System.Web.UI.HtmlControls.HtmlButton btnOutOfStock;
 	}
 }

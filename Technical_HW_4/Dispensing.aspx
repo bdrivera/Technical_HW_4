@@ -20,12 +20,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col CsProcessing" CssClass="SubContentTitle">
+                <div class="col CsProcessing">
                     <asp:Label ID="lblProcessingTitleDispensing" runat="server" Text="Dispensing" CssClass="SubContentTitle ProcessingTitle"></asp:Label><br />
-                    <asp:Button ID="btnFilled" runat="server" Text="Filled" CssClass="Button" />
-                    <asp:Button ID="btnShipped" runat="server" Text="Shipped" CssClass="Button" /><br />
-                    <asp:Button ID="btnDenyDispensing" runat="server" Text="Deny for Processing" CssClass="Button" />
-                    <asp:Button ID="btnOOS" runat="server" Text="Out of Stock\nRequestReplacement" CssClass="Button" />
+
+                    <div class="row">
+                        <div class="col">
+                            <asp:Button ID="btnFilled" runat="server" Text="Filled" CssClass="Button" />
+                            <asp:Button ID="btnShipped" runat="server" Text="Shipped" CssClass="Button" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <asp:Button ID="btnDenyDispensing" runat="server" Text="Deny" CssClass="Button" />
+                            <button ID="btnOutOfStock" runat="server" class="Button">Out of Stock<br />Request Replacement</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
